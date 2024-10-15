@@ -40,3 +40,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Include proprietary files
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include device/xiaomi/miuicamera-redwood/BoardConfig.mk
