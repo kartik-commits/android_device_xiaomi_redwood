@@ -232,6 +232,7 @@ vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/lib3rdpartcontext.so
 vendor/lib64/libAF.so
+vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libXMFaceFocus.so
