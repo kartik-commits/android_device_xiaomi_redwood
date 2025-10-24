@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "remote": "github"
+  },
+  {
+    "repository": "kartik-commits/proprietary_vendor_xiaomi_redwood",
+    "target_path": "vendor/xiaomi/redwood",
+    "remote": "github"
+  }
+]

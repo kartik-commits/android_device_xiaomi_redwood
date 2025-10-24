@@ -7,14 +7,14 @@
 # Inherit from redwood device
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := POCO X5 Pro 5G
-PRODUCT_NAME := lineage_redwood
+PRODUCT_NAME := custom_redwood
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
