@@ -10,6 +10,8 @@ $(call inherit-product, device/xiaomi/redwood/device.mk)
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
+TARGET_KERNEL_VERSION := 5.4
+
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
