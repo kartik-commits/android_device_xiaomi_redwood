@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_KERNEL_VERSION := 5.4
 
@@ -16,7 +16,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := POCO X5 Pro 5G
-PRODUCT_NAME := custom_redwood
+PRODUCT_NAME := aosp_redwood
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
